@@ -1,106 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bakery Website</title>
-<script defer src="bundle.js"></script></head>
-<body>
-    <header>
-        <div class="header">
-            <div id="bread01" class="bread"></div>
-            <div id="bread02" class="bread"></div>
-            <div id="bread03" class="bread"></div>
-            <div id="bread04" class="bread"></div>
-            <div id="bread05" class="bread"></div>
-            <nav>
-                <ul>
-                    <li><div id="navHeader"></div></li>
-                    <li>Store</li>
-                    <li>About</li>
-                    <li>Shipping</li>
-                    <li>Recipes</li>
-                    <li>Blog</li>
-                </ul>
-            </nav>
-            <div class="header-body">
-                <p class="greeting">— bonjour —</p>
-                <p class="greeting-content">Serving Baked <br> Goods <b>Every Day</b></p>
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button class="shop-button" type="button">Shop Now <span id="right-arrow">&#x2192;</span></button>
-            </div>
-        </div>
-    </header>
+<!doctype html><html lang="en"><head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bakery Website</title><script defer="defer" src="bundle.js"></script></head><body><header><div class="header"><div id="bread01" class="bread"></div><div id="bread02" class="bread"></div><div id="bread03" class="bread"></div><div id="bread04" class="bread"></div><div id="bread05" class="bread"></div><nav><ul><li><div id="navHeader"></div></li><li>Store</li><li>About</li><li>Shipping</li><li>Recipes</li><li>Blog</li></ul></nav><div class="header-body"><p class="greeting">— bonjour —</p><p class="greeting-content">Serving Baked<br>Goods <b>Every Day</b></p><p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><button class="shop-button" type="button">Shop Now <span id="right-arrow">&#x2192;</span></button></div></div></header><section class="body"><p class="greeting">— patisserie —</p><p class="greeting-content"><b>Lorem Ipsum</b></p><p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><div class="follow-us"><span class="follow-text">Follow Us</span><hr class="follow-line"><a href="https://facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a> <a href="https://instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a></div></section><section class="product"><div class="product-content"><div id="bread06"></div><h3>Pain au Cranberry</h3><p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p><div class="currency-container"><div class="dropdown"><button class="dropbtn">Pack of 6</button><div class="dropdown-content"><a href="#">Pack of 1</a> <a href="#">Pack of 2</a> <a href="#">Pack of 3</a></div></div><div class="counter-container"><button class="counter-btn" onclick="decrement(1)">-</button> <span class="counter-value" id="counter1">5</span> <button class="counter-btn" onclick="increment(1)">+</button></div><div class="price">$128</div></div><div class="add-to-card"><button class="add-to-card" type="button">+ Add To Card</button></div></div><div class="product-content"><div id="bread08"></div><h3>Pain au Cranberry</h3><p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p><div class="currency-container"><div class="dropdown"><button class="dropbtn">Pack of 6</button><div class="dropdown-content"><a href="#">Pack of 1</a> <a href="#">Pack of 2</a> <a href="#">Pack of 3</a></div></div><div class="counter-container"><button class="counter-btn" onclick="decrement(2)">-</button> <span class="counter-value" id="counter2">5</span> <button class="counter-btn" onclick="increment(2)">+</button></div><div class="price">$128</div></div><div class="add-to-card"><button class="add-to-card" type="button">+ Add To Card</button></div></div><div class="product-content"><div id="bread07"></div><h3>Pain au Cranberry</h3><p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p><div class="currency-container"><div class="dropdown"><button class="dropbtn">Pack of 6</button><div class="dropdown-content"><a href="#">Pack of 1</a> <a href="#">Pack of 2</a> <a href="#">Pack of 3</a></div></div><div class="counter-container"><button class="counter-btn" onclick="decrement(3)">-</button> <span class="counter-value" id="counter3">5</span> <button class="counter-btn" onclick="increment(3)">+</button></div><div class="price">$128</div></div><div class="add-to-card"><button class="add-to-card" type="button">+ Add To Card</button></div></div></section><script src="./dist/bundle.js"></script><script>let counterValue = 5;
     
-    <section class="body">
-        <p class="greeting">— patisserie —</p>
-        <p class="greeting-content"><b>Lorem Ipsum</b></p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="follow-us">
-            <span class="follow-text">Follow Us</span>
-            <hr class="follow-line">
-            <a href="https://facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>            
-        </div>
-    </section>
-    
-
-    <section class="product">
-        <div class="product-content">
-            <h3>Pain au Cranberry</h3>
-            <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
-            <div class="dropdown">
-                <button class="dropbtn">Pack of 6</button>
-                <div class="dropdown-content">
-                  <a href="#">Pack of 1</a>
-                  <a href="#">Pack of 2</a>
-                  <a href="#">Pack of 3</a>
-                </div>
-              </div>
-            <div class="price">
-                $128
-            </div>
-            <button class="add-to-cart">Add To Cart</button>
-        </div>
-        <div class="product-content">
-            <h3>Pain au Cranberry</h3>
-            <p>A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.</p>
-            <div class="dropdown">
-                <button class="dropbtn">Pack of 6</button>
-                <div class="dropdown-content">
-                  <a href="#">Pack of 1</a>
-                  <a href="#">Pack of 2</a>
-                  <a href="#">Pack of 3</a>
-                </div>
-            </div>
-            <div class="counter-container">
-                <button class="counter-btn" onclick="decrement()">-</button>
-                <span class="counter-value" id="counter">5</span>
-                <button class="counter-btn" onclick="increment()">+</button>
-            </div>
-            <div class="price">
-                $128
-            </div>
-            <div class="add-to-card">    
-                <button class="add-to-card" type="button"><span id="plus">&#xf067;</span>Add To Card</button>
-            </div>
-        </div>
-    </section>
-    <script src="./dist/bundle.js"></script>
-    <script>
-        let counterValue = 5;
-    
-        function decrement() {
+        function decrement(str) {
             counterValue--;
-            document.getElementById('counter').innerText = counterValue;
+            document.getElementById(`counter${str}`).innerText = counterValue;
         }
     
-        function increment() {
+        function increment(str) {
             counterValue++;
-            document.getElementById('counter').innerText = counterValue;
-        }
-    </script>
-</body>
-</html>
+            document.getElementById(`counter${str}`).innerText = counterValue;
+        }</script></body></html>
