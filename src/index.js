@@ -1,0 +1,20 @@
+import './style.css';
+import navHeader from '../images/nav-header.png';
+import bread01 from '../images/bread01.png';
+import bread02 from '../images/bread02.png';
+import bread03 from '../images/bread03.png';
+import bread04 from '../images/bread04.png';
+import bread05 from '../images/bread05.png';
+import bread06 from '../images/bread06.png';
+import bread07 from '../images/bread07.png';
+import bread08 from '../images/bread08.png';
+
+document.getElementById('navHeader').innerHTML = `<img src="${navHeader}" alt="header nav" />`;
+document.getElementById('bread01').innerHTML = `<img src="${bread01}" />`;
+document.getElementById('bread02').innerHTML = `<img src="${bread02}" />`;
+document.getElementById('bread03').innerHTML = `<img src="${bread03}" />`;
+document.getElementById('bread04').innerHTML = `<img src="${bread04}" />`;
+document.getElementById('bread05').innerHTML = `<img src="${bread05}" />`;
+document.getElementById('bread06').innerHTML = `<img src="${bread06}" />`;
+document.getElementById('bread07').innerHTML = `<img src="${bread07}" />`;
+document.getElementById('bread08').innerHTML = `<img src="${bread08}" />`;

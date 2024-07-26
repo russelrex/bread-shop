@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem 0 6rem;
+    z-index: 1;
+    font-family: Jost;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 6rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header {
+    height: 1000px;
+    background: linear-gradient(107.15deg, #F9EFE0 0%, #DED3C1 100%);
+    text-align: -webkit-center;
+    position: relative;
+    z-index: 1;
+}
+
+#navHeader img {
+    height: 80px;
+    width: auto;
+}
+
+.header-body {
+    margin-top: 7rem;
+    z-index: 1;
+}
+
+.greeting {
+    font-size: 1.2rem;
+    color: #CF8C0B;
+    margin: 0;
+    font-style: italic;
+}
+
+.greeting-content {
+    font-family: Cormorant Garamond;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: -0.035em;
+    margin: 0;
+
+}
+
+.description {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 800px;
+}
+
+.shop-button {
+    cursor: pointer;
+    font-family: Jost;
+    font-size: 20px;
+    padding: 16px 32px 16px 32px;
+    background: var(--Decoration, #CF8C0B1A);
+    border: 1px solid var(--Primary, #CF8C0B)
+}
+
+#right-arrow {
+    margin-left: 10px;
+}
+
+.bread {
+    position: absolute;
+    z-index: -1;
+}
+
+#bread01 {
+    top: 20px;
+    left: 0;
+}
+
+#bread02 {
+    top: 550px;
+    left: 0;
+}
+
+#bread03 {
+    top: 380px;
+    right: 0;
+}
+
+#bread04 {
+    top: 80px;
+    right: 0;
+}
+
+#bread05 {
+    top: 0;
+    right: 35%;
+}
+
+.body {
+    background-color: #FFFCF8;
+    text-align: -webkit-center;
+    padding: 200px 64px 200px 64px;
+    gap: 64px;
+}
+
+.follow-us {
+    font-family: Jost;
+    font-size: 20px;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-line {
+    width: 50px;
+    border-top: 2px solid orange;
+    margin: 0 10px;
+}
+
+.social-icon {
+    color: #333;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.social-icon:hover {
+    color: #555;
+}
+
+.product {
+    background-color: #FFFCF8;
+    display: flex;
+    justify-content: center;
+    padding: 0 64px 200px 64px;
+    gap: 64px;
+}
+
+.product-content {
+    text-align: start;
+    width: 400px;
+    margin: 30px;
+}
+
+.dropbtn {
+    font-family: Jost;
+    background-color: #f8f1e7;
+    border: none;
+    padding: 8px 24px 8px 24px;
+    gap: 10px;
+    border-radius: 64px;
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.counter-container {
+    display: inline-flex;
+    background-color: #f8f1e7;
+    padding: 8px 24px 8px 24px;
+    border-radius: 64px;
+    margin-right: 140px;
+}
+
+.counter-btn {
+    background: none;
+    border: none;
+    color: #c69736;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.counter-value {
+    font-family: Jost;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.currency-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    margin-right: -50px;
+}
+
+.add-to-card {
+    font-family: Jost;
+    background-color: #f8f1e7;
+    border: none;
+    margin-top: 10px;
+    padding: 8px 24px 8px 24px;
+    gap: 10px;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        width: fit-content;
+    }
+
+    body {
+        width: 1100px;
+    }
+  }
