@@ -1,13 +1,13 @@
 import './style.css';
-import navHeader from '../images/nav-header.png';
-import bread01 from '../images/bread01.png';
-import bread02 from '../images/bread02.png';
-import bread03 from '../images/bread03.png';
-import bread04 from '../images/bread04.png';
-import bread05 from '../images/bread05.png';
-import bread06 from '../images/bread06.png';
-import bread07 from '../images/bread07.png';
-import bread08 from '../images/bread08.png';
+const navHeader = require('../images/nav-header.png');
+const bread01 = require('../images/bread01.png');
+const bread02 = require('../images/bread02.png');
+const bread03 = require('../images/bread03.png');
+const bread04 = require('../images/bread04.png');
+const bread05 = require('../images/bread05.png');
+const bread06 = require('../images/bread06.png');
+const bread07 = require('../images/bread07.png');
+const bread08 = require('../images/bread08.png');
 
 document.getElementById('navHeader').innerHTML = `<img src="${navHeader}" alt="header nav" />`;
 document.getElementById('bread01').innerHTML = `<img src="${bread01}" />`;
