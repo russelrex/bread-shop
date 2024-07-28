@@ -1,12 +1,21 @@
+## Getting Started
+
 Open terminal and clone the repository
 
+```bash
 git clone <>
+```
+
 CD to the folder and run
 
+```bash
 npm install
+```
 
 Then run
 
+```bash
 npm start
+```
 
-then go to http://localhost:8080
+Open http://localhost:8080 with your browser to see the result.
