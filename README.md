@@ -3,7 +3,7 @@
 Open terminal and clone the repository
 
 ```bash
-git clone https://github.com/russelrex23/upwork-test-app.git
+git clone https://github.com/russelrex23/bread-shop.git
 ```
 
 CD to the folder and run

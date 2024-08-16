@@ -17,7 +17,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 6rem;
+    margin-right: 3rem;
 }
 
 footer {
@@ -115,7 +115,7 @@ footer a {
 
 #bread05 {
     top: 0;
-    right: 35%;
+    right: 23%;
 }
 
 .body {
@@ -247,11 +247,20 @@ footer a {
 }
 
 @media screen and (max-width: 480px) {
-    header {
+    body {
         width: fit-content;
     }
 
+    header {
+        /* width: fit-content; */
+    }
+
     .body {
-        width: 1000px;
+        /* width: 1000px; */
+    }
+
+    .product {
+        display: block;
+        text-align: -webkit-center;
     }
   }
